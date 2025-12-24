@@ -128,8 +128,8 @@ I developed a **no-code ML web application** that allows users to:
 
 This enabled experimentation and learning without technical barriers.
 """)
-    st.markdown("####👇👇Try a Demo Version")
-    st.markdown("[🌐 Visit My Website](https://imanmohammad1998-datadashboard-dash-x8liz7.streamlit.app/)", unsafe_allow_html=True)
+    st.markdown("👇👇Try a Demo Version")
+    st.markdown("[🌐AI App](https://imanmohammad1998-datadashboard-dash-x8liz7.streamlit.app/)", unsafe_allow_html=True)
 
 ######################
 
