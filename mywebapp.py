@@ -73,7 +73,7 @@ Worked as part of a **specialized team of programmers and under the supervision 
 - Developed ML & Deep Learning models for accurate blood glucose prediction
 - Model optimization & quantization for deployment on ESP32 microcontrollers & IoT
 - Built CNN models for ECG signal classification and blood cell counting
-##- Created no-code AI web and mobile apps for non-technical users and students
+-Created no-code AI web and mobile apps for non-technical users and students
 - Collaborated with a multi-disciplinary team including researchers and developers
 
 **Key Projects:**
@@ -95,7 +95,6 @@ and how I solved them by building **practical AI-powered web applications**.
 Each problem below was addressed by designing a **user-friendly web app**,  
 allowing **non-technical users** to interact with data and AI models easily.
 """)
-
     # ---------- Problem 1 ----------
     st.subheader("🔹 Problem 1: Data Handling for Non-Technical Team Members")
 
@@ -112,34 +111,6 @@ I built an **interactive dashboard** that allows users to:
 
 This removed the dependency on technical team members and improved collaboration.
 """)
-
-    st.markdown("#### 👉 Try a Demo Version")
-    demo_file = st.file_uploader(
-        "Upload a CSV file to explore the demo dashboard",
-        type=["csv"],
-        key="demo_data_cleaning"
-    )
-
-    if demo_file is not None:
-        df = pd.read_csv(demo_file)
-        df.columns = df.columns.str.strip()
-
-        st.success("File uploaded successfully!")
-        st.write("Preview of the dataset:")
-        st.dataframe(df.head())
-
-        st.write("Basic statistics:")
-        st.write(df.describe())
-
-        numeric_cols = df.select_dtypes(include=np.number).columns
-        if len(numeric_cols) > 0:
-            st.write("Simple visualization:")
-            st.line_chart(df[numeric_cols])
-        else:
-            st.warning("No numeric columns found for visualization.")
-
-    st.divider()
-
     # ---------- Problem 2 ----------
     st.subheader("🔹 Problem 2: Using ML Models Without ML Knowledge")
 
@@ -157,45 +128,8 @@ I developed a **no-code ML web application** that allows users to:
 
 This enabled experimentation and learning without technical barriers.
 """)
-
     st.markdown("#### 👉 Try a Demo Version")
-    ml_demo_file = st.file_uploader(
-        "Upload a CSV file to test a demo ML workflow",
-        type=["csv"],
-        key="demo_ml"
-    )
-
-    if ml_demo_file is not None:
-        df_ml = pd.read_csv(ml_demo_file)
-        df_ml.columns = df_ml.columns.str.strip()
-
-        st.success("Dataset loaded for ML demo!")
-
-        st.write("Dataset preview:")
-        st.dataframe(df_ml.head())
-
-        numeric_cols = df_ml.select_dtypes(include=np.number).columns
-
-        if len(numeric_cols) >= 2:
-            target_col = st.selectbox(
-                "Select target column",
-                numeric_cols
-            )
-
-            feature_cols = [c for c in numeric_cols if c != target_col]
-
-            st.write("Selected features:", feature_cols)
-
-            from sklearn.linear_model import LinearRegression
-            model = LinearRegression()
-            model.fit(df_ml[feature_cols], df_ml[target_col])
-
-            predictions = model.predict(df_ml[feature_cols])
-
-            st.write("Prediction preview:")
-            st.line_chart(predictions[:50])
-        else:
-            st.warning("Dataset must contain at least two numeric columns.")
+    st.markdown("[🌐 Visit My Website](https://imanmohammad1998-datadashboard-dash-x8liz7.streamlit.app/)", unsafe_allow_html=True)
 
 ######################
 
