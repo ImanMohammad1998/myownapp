@@ -50,8 +50,9 @@ deploying models on microcontrollers(ESP32) using TinyML techniques,
 . My focus is on 
 practical, real-world AI systems with measurable impact.
 """)
-    st.markdown("""
-<div style="color: crimson; font-weight: bold; font-size: 16px;">
+# --- Personal Info in smaller green font ---
+st.markdown("""
+<div style="color: green; font-weight: bold; font-size: 14px;">
 👤 Age: 27<br>
 🇯🇴 Nationality: Jordanian<br>
 📧 Email: <a href='mailto:emanmfaris@gmail.com'>emanmfaris@gmail.com</a>
