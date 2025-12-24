@@ -45,9 +45,8 @@ with tab1:
     st.markdown("### About Me")
     st.write("""
 I am a Biomedical Engineer and AI Developer with experience in applied AI, 
-medical devices, IoT,. I work on building machine learning and neural network solutions, 
-deploying models on microcontrollers(ESP32) using TinyML techniques,
-. My focus is on 
+medical devices and IoT,I work on building machine learning and neural network solutions, 
+deploying models on microcontrollers(ESP32) using TinyML techniques,My focus is on 
 practical, real-world AI systems with measurable impact.
 """)
 
