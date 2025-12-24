@@ -49,7 +49,7 @@ medical devices, IoT,. I work on building machine learning and neural network so
 deploying models on microcontrollers(ESP32) using TinyML techniques,
 . My focus is on 
 practical, real-world AI systems with measurable impact.
-"""))
+""")
     
 
 # --- MY EXPERIENCE ---
