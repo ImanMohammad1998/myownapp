@@ -4,7 +4,7 @@ import numpy as np
 
 # --- PAGE CONFIG ---
 st.set_page_config(
-    page_title="Eman – Biomedical AI Engineer Portfolio",
+    page_title="Eman Mohammad Faris– Biomedical Engineer & AI Developer Portfolio",
     layout="wide",
     initial_sidebar_state="expanded"
 )
