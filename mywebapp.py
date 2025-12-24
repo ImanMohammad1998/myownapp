@@ -75,11 +75,6 @@ Worked as part of a **specialized team of programmers and under the supervision 
 3. CNN Blood Cell Analysis – research & personal project  
 4. No-Code AI Web Applications – data cleaning, visualization, ML experimentation
 """)
-    st.image(
-        "https://images.unsplash.com/photo-1581092580494-8e567af7b9be?auto=format&fit=crop&w=800&q=80",
-        caption="Team Collaboration & AI Project",
-        use_column_width=True
-    )
 
 ##############
 # --- PROBLEMS I SOLVED ---
