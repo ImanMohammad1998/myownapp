@@ -73,7 +73,6 @@ Worked as part of a **specialized team of programmers and under the supervision 
 - Developed ML & Deep Learning models for accurate blood glucose prediction
 - Model optimization & quantization for deployment on ESP32 microcontrollers & IoT
 - Built CNN models for ECG signal classification and blood cell counting
--Created no-code AI web and mobile apps for non-technical users and students
 - Collaborated with a multi-disciplinary team including researchers and developers
 
 **Key Projects:**
@@ -111,6 +110,9 @@ I built an **interactive dashboard** that allows users to:
 
 This removed the dependency on technical team members and improved collaboration.
 """)
+    st.markdown("👇👇Try a Demo Version")
+    st.markdown("[🌐AI App](https://imanmohammad1998-datadashboard-dash-x8liz7.streamlit.app/)", unsafe_allow_html=True)
+
     # ---------- Problem 2 ----------
     st.subheader("🔹 Problem 2: Using ML Models Without ML Knowledge")
 
