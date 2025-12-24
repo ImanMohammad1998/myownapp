@@ -50,12 +50,11 @@ deploying models on microcontrollers(ESP32) using TinyML techniques,
 . My focus is on 
 practical, real-world AI systems with measurable impact.
 """)
-    # --- Personal Info ---
-st.markdown("""
+    st.markdown("""
 <div style="color: crimson; font-weight: bold; font-size: 16px;">
-📧 Email: your@email.com<br>
-🔗 LinkedIn: <a href='https://www.linkedin.com/in/your-linkedin/' target='_blank'>your-linkedin</a><br>
-🌐 Portfolio: <a href='https://your-portfolio-link.com' target='_blank'>your-portfolio-link.com</a>
+👤 Age: 27<br>
+🇯🇴 Nationality: Jordanian<br>
+📧 Email: <a href='mailto:emanmfaris@gmail.com'>emanmfaris@gmail.com</a>
 </div>
 """, unsafe_allow_html=True)
 
