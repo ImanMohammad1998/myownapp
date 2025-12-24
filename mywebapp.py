@@ -207,11 +207,6 @@ Currently enhancing my professional skills and preparing educational materials:
 - **Training content** focused on TinyML & deploying AI models on microcontrollers
 - Teaching AI in a **practical, simplified, and accessible way**
 """)
-    st.image(
-        "https://images.unsplash.com/photo-1555685812-4b943f1b5ebf?auto=format&fit=crop&w=800&q=80",
-        caption="Learning & Training Preparation",
-        use_column_width=True
-    )
     
 
 # --- SKILLS & TOOLS ---
