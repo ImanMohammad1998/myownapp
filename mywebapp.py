@@ -47,7 +47,7 @@ with tab1:
 I am a Biomedical Engineer and AI Developer with experience in applied AI, 
 medical devices and IoT,I work on building machine learning and neural network solutions, 
 deploying models on microcontrollers(ESP32) using TinyML techniques,My focus is on 
-practical, real-world AI systems with measurable impact.
+practical real-world AI systems with measurable impact.
 """)
 
  # --- Personal Info below About Me ---
